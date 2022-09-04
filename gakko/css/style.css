@@ -1,0 +1,222 @@
+@charset "UTF-8"; /* 文字コードの指定 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap'); /* Google Fonts用のCSSを読み込み */
+
+/* ページ全般の設定 */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  margin-bottom: 0.6rem;
+}
+
+section {
+  padding: 50px;
+}
+
+/* ヘッダー */
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+
+#header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 60px;
+}
+
+#hamburger-button {
+  display: none;
+}
+
+#hamburger-button .hamburger-bars {
+  font-size: 24px;
+  color: #666;
+}
+
+#hamburger-navi-menu {
+  margin: 10px;
+  display: none;
+}
+
+#navi-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navi-menu li {
+  margin-left: 20px;
+}
+
+/* メインコンテンツ */
+#main {
+  margin-top: 60px;
+}
+
+/* ビジュアル */
+#main-head {
+  background-color: #eee;
+  padding: 0 50px;
+}
+
+#head-visual {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#head-visual img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* slickの設定 */
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+#main-chief .chief-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chief-fig .profile-image {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+/* コース一覧 */
+.gray-bg {
+  background-color: #eee;
+}
+
+#course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#course-list li {
+  min-width: 300px;
+  margin-bottom: 1.6rem;
+}
+
+.course-logo {
+  display: block;
+  height: 150px;
+  text-align: center;
+  font-size: 80px;
+  color: #eee;
+}
+
+.course-bg1 {
+  background-color: #e67074;
+}
+
+.course-bg2 {
+  background-color: #7872b4;
+}
+
+.course-bg3 {
+  background-color: #f8971f;
+}
+
+.course-bg4 {
+  background-color: #8b7acb;
+}
+
+.course-bg5 {
+  background-color: #1d8cbd;
+}
+
+.course-bg6 {
+  background-color: #999;
+}
+
+/* アクセス */
+#access-address {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+#google-map {
+  height: 300px;
+}
+
+/* フッター */
+#footer {
+  padding: 2.0rem;
+  text-align: center;
+  color: #eee;
+  background-color: #333;
+}
+
+/* メディアクエリ（モバイルの場合の指定） */
+@media screen and (max-width: 960px) {
+  section {
+    padding: 50px 10px;
+  }
+
+  #header-inner {
+    padding: 0 10px;
+  }
+
+  #hamburger-button {
+    display: block;
+  }
+
+  #navi {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #main-chief .chief-intro {
+    display: block;
+  }
+
+  .chief-fig {
+    text-align: center;
+  }
+
+  .chief-name {
+    text-align: center;
+  }
+}

@@ -1,0 +1,1636 @@
+@charset "UTF-8"; /* 文字コードの指定 */
+
+@font-face {
+  font-family: "HannariMincho-Regular";
+  src: url("../fonts/HannariMincho-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GenShinGothic-Bold";
+  src: url("../fonts/GenShinGothic-Bold.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GenShinGothic-Heavy";
+  src: url("../fonts/GenShinGothic-Heavy.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GenShinGothic-Medium";
+  src: url("../fonts/GenShinGothic-Medium.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NotoSansJP-Medium";
+  src: url("../fonts/NotoSansJP-Medium.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Philosopher-Italic";
+  src: url("../fonts/Philosopher-Italic.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Philosopher-Regular";
+  src: url("../fonts/Philosopher-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+/* header画像部分 */
+header{
+  width: 100%;
+  background-image: url("../img/header.jpg");
+  position: relative;
+  height:66.6178623719vw;
+  background-size: cover;
+}
+
+.header_content{
+  position: absolute;
+  padding-top: 3.787vw;
+  right: 1.4216691069vw; /* (88 × 100 ÷ 1366) */
+  font-size: 5.12445095168vw; /* (70 × 100 ÷ 1366) */
+  
+}
+
+.header_title{
+  font-size: 5.124vw;
+  color: #91b3a2;
+  font-family:"HannariMincho-Regular";
+}
+
+
+.header_subtitle{
+  font-size: 2.049vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.header_img img{
+  width:28.55vw;
+  height:26.866vw;
+  margin-top :3.66vw  ;
+  margin-left: 5.128vw;
+  margin-right: 4.128vw;
+}
+
+.header_text{
+  font-size: 2.48vw;
+}
+
+.header_text1{
+  font-family: "Philosopher-Regular";
+  display: inline-block;
+}
+
+.header_point1{
+  background: linear-gradient(transparent 80%, #B391A2 0% );
+}
+
+.header_point2{
+  background: linear-gradient(transparent 80%, #B391A2 0);
+  font-family: "NotoSansJP-Medium";
+  
+}
+
+.header_point3{
+  font-family: "NotoSansJP-Medium";
+}
+
+.header_text3{
+  font-family: "HannariMincho-Regular"; 
+  font-size: 3.294vw;
+  padding-bottom: 0.5vw;
+  background: linear-gradient(transparent 80%, #B391A2 0% );
+}
+
+
+main{
+  font-family: "NotoSansJP-Medium";
+}
+
+.instagram{
+  text-align: center;
+  margin-top: 38px;
+  padding-bottom: 4.2459vw;
+}
+
+.instagram_title img{
+  width: 65.812vw;
+  height:8.3455;
+  
+}
+
+.instagram_text{
+  font-size: 2.489vw;
+  margin-top: 17.3px;
+  font-family: "NotoSansJP-Medium";
+}
+
+.instagram_content{
+  display: flex;
+  margin: 0 auto;
+  width: 80vw;
+  margin-top: 3.34553vw;
+  
+}
+
+.instagram_post{
+  width:12.5915vw;
+  height: 37.847vw;
+  border: 1px solid #B391A2;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 0.732vw;
+}
+
+.instagram_post img{
+  height: 12.5915vw;
+}
+
+.instagram_post p{
+  font-size: 1.1713vw;
+  text-align: left
+}
+
+.instagram_post_date{
+  text-align: right;
+}
+
+.instagram_name{
+  display: flex;
+}
+
+.instagram_name img{
+  height: 2.196193vw;
+  width: 2.196193vw;
+  margin-right: 0.4vw;
+}
+
+.campaign{
+  background-image: url("../img/cv.jpg");
+  padding-top: 4.4655vw;
+  padding-bottom: 4.1727vw;
+}
+
+
+
+.campaign_title{
+  text-align: center;
+}
+
+.campaign_title img{
+  width: 69.253vw;
+  height: 9.10102489vw;
+  margin-bottom: 6.4421vw;
+}
+
+.campaign_wrapper{
+  display: flex;
+  justify-content:center;
+}
+
+.campaign_main{
+  text-align: center;
+}
+
+.campaign_item img{
+  width: 29.355vw;
+  height: 28.916vw;
+  margin-top: 2vw;
+}
+
+.campaign_item_text{
+  font-size: 2.04vw;
+}
+
+.campaign_text{
+  margin-left: 3.513vw;
+}
+
+.campaign_item_title{
+  font-size: 4.026vw;
+  font-family: "HannariMincho-Regular";
+}
+
+.campaign_item_text{
+  font-size: 2.04vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.campaign_item_subtitle{
+  font-size: 2.049vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.campaign_shampoo{
+  border-bottom: solid #91b3a2;
+  display:inline-block;
+  padding-bottom: 1.7569vw
+  
+}
+
+.campaign_cost{
+  padding-top: 2.56vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5vw;
+}
+
+.cost{
+  
+  margin-right: 2.049vw;
+   
+}
+
+.current_cost{
+  font-size: 1.97vw;
+  text-decoration: line-through;
+}
+
+.current_cost_text{
+  font-size: 2.19619vw;
+}
+
+.sale_cost{
+  font-family: "Philosopher-Regular";
+  font-size: 7.906vw;
+  color: #ff0000;
+}
+
+.sale_cost span{
+  font-size: 4vw;
+}
+
+.tax{
+  font-size: 1.97vw;
+   align-items: flex-end;
+   padding-top: 4vw;
+}
+
+.campaign_button{
+  width: 49.5vw;
+  height: 7.46vw;
+  color: #fff;
+  background-color: #91b3a2;
+  font-size: 3.7335vw;
+  border-radius: 5px;
+  font-family: "HannariMincho-Regular";
+}
+
+.campaign_cancel{
+  color: #bc0000;
+  font-size: 3.001vw;
+  border-bottom: solid #b391a2 9px;
+  width: 18.008784vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.campaign_cancel_text{
+  font-size: 2.122vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.question_img{
+  width:2.049vw;
+  height: 1.903vw;
+  margin-right: 1.617vw;
+}
+
+
+
+/* question */
+
+.question{
+  background-image: url("../img/empathy.jpg");
+  background-size: cover;
+  height: 60.0292vw;
+}
+
+.question_title{
+  font-size: 5.41727672vw;
+  color: #91b3a2;
+  font-family:"HannariMincho-Regular";
+  background: linear-gradient(transparent 80%, #B391A2 0% );
+  padding-bottom: 0.7vw;
+  display:inline-block;
+  margin-left:9.5168375vw;
+  margin-right:10.1610543vw;
+  margin-top:3.8653vw;
+}
+
+.question_text{
+  margin-left:10.0292vw;
+  margin-top:10.24vw;
+  font-size:2.1vw;
+  
+}
+
+.question_text p{
+  line-height: 6.36vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+
+/*cause*/
+
+.cause{
+  position: relative;
+}
+
+.cause_main{
+  background-image: url("../img/exhibit1.jpg");
+  padding-top: 3.997vw;
+  padding-bottom: 5.9809vw;
+}
+
+.cause_title{
+  font-size: 3.5139vw;
+  display: inline-block;
+  background: linear-gradient(transparent 80%, #B391A2 0% );
+  padding-bottom: 0.7vw;
+  font-family:"HannariMincho-Regular";
+  margin-left:9.5168375vw;
+  margin-right:10.1610543vw;
+  color: #91b3a2;
+}
+
+.cause_category{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4.02vw;
+  padding-left: 11.05vw;
+  padding-right: 10.1024vw;
+}
+
+.cause_text{
+  font-family: "NotoSansJP-Medium";
+  font-size: 1.97vw;
+  width: 44.8023vw;
+  height: 23.112vw;
+  margin-right: 5.153vw;
+}
+
+.cause_text p{
+  margin-bottom: 2vw;
+}
+
+.cause_img{
+  width: 29.868vw;
+  height: 19.912vw;
+}
+
+.cause_middle{
+  position: absolute;
+  bottom: 37.5vw;
+  left: 35vw;
+  width: 28vw;
+  height: 9.5vw;
+}
+
+
+
+.exhibit_main{
+  margin-top: 6.63vw;
+  padding-bottom: 5.9803vw;
+}
+
+
+.exhibit_title{
+  font-size: 3.5139vw;
+   background: linear-gradient(transparent 80%, #B391A2 0% );
+   padding-bottom: 0.7vw;
+  display: inline-block;
+  font-family:"HannariMincho-Regular";
+  margin-left:9.5168375vw;
+  margin-right:10.1610543vw;
+  color: #91b3a2;
+}
+
+.exhibit_category{
+  display: flex;
+  padding-top: 4.02vw;
+  padding-left: 11.05vw;
+  padding-right: 10.1024vw;
+}
+
+.exhibit_text{
+  font-family: "NotoSansJP-Medium";
+  font-size: 1.97vw;
+  width: 44.8023vw;
+  margin-left: 5.153vw;
+}
+
+.exhibit_img{
+  width: 29.868vw;
+  height: 19.912vw;
+}
+
+.benefit{
+  padding-top: 6.9339vw;
+}
+
+
+.benefit_title{
+  font-size: 4.978vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 5.8711vw;
+  font-family: "HannariMincho-Regular";
+}
+
+
+.benefit_breeds {
+  padding: 0 10vw 3vw 10vw;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.benefit_description p{
+  font-size: 1.9765vw;
+  width: 43.138vw;
+  height: 23.117vw;
+}
+
+.benefit_description{
+ text-align: left; 
+}
+
+.subtitle{
+   background: linear-gradient(transparent 80%, #B391A2 0% );
+   padding-bottom: 0.67vw;
+  display: inline-block;
+  font-size: 3.5139vw;
+  font-family: "HannariMincho-Regular";
+  margin-bottom: 1.09vw;
+}
+
+.benefit_description p{
+  border-top:solid; 
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+
+.benefit_imgs_l img,
+.benefit_imgs_r img {
+  width: 30.966vw;
+  height: 20.644vw;
+}
+
+.benefit_imgs_l,
+.benefit_imgs_r {
+  text-align: center;
+}
+
+.benefit_img_description{
+  font-size: 1.75vw;
+
+}
+
+.animate__animated {
+  opacity: 0;
+}
+
+
+/*use*/
+
+.use{
+  padding-top: 6.354vw;
+  padding-bottom: 5.82vw;
+  background-image: url("../img/use.jpg");
+}
+
+.use_title{
+  font-size: 4.978vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 5.8711vw;
+  font-family: "HannariMincho-Regular";
+}
+
+
+.use_content{
+  display: flex;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 2vw;
+  padding-bottom:2vw;
+  border-bottom: solid #91B3A2;
+}
+
+.use_content_1{
+  display: flex;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 2vw;
+  padding-bottom:2vw;
+  border-bottom: solid #91B3A2;
+}
+
+.use_content_5{
+  display: flex;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 2vw;
+  padding-bottom:2vw;
+}
+
+.use_imgs{
+  padding-right: 5.344vw;
+  border-right: solid #91B3A2;
+}
+
+.use_imgs img{
+  width: 34.992vw;
+  height: 17.496vw;
+}
+
+.use_imgs_1{
+  padding-right: 5.344vw;
+  border-right: solid #91B3A2;
+}
+
+.use_imgs_1 img{
+  width: 34.992vw;
+  height: 17.496vw;
+}
+
+.use_subtitle{
+  font-family: "Philosopher-Italic";
+  border-bottom: solid 2px;
+  font-size: 3.587vw;
+  display: inline-block;
+  margin-bottom: 4.136vw;
+}
+
+.use_description{
+  font-size: 1.9765vw;
+  padding-left: 5.344vw;
+}
+
+/*Q&A*/
+
+.Q_A{
+  background-image: url("../img/Q_A.jpg")
+}
+
+.Q_A_main{
+  width: 79.9414vw;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 7.525vw;
+}
+
+.Q_A_title{
+  font-size: 4.978vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 5.8711vw;
+  font-family: "HannariMincho-Regular";
+}
+
+.Q_A_content{
+  border-bottom: solid #91b3a2;
+  padding-bottom: 4.8133vw;
+  padding-top: 4.3558vw;
+}
+
+.Q_A_content_last{
+  padding-bottom: 4.8133vw;
+  padding-top: 4.3558vw;
+}
+
+.Q{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.587vw;
+}
+
+
+.Q_icon{
+  color: #91B3A2;
+  font-size: 3.953vw;
+  margin-right: 1.273vw;
+  font-family: "Philosopher-Regular";
+}
+
+.Q_description{
+  font-size: 1.95vw;
+}
+
+.A{
+  display: flex;
+}
+
+
+
+.A_icon{
+  color: #BC0000;
+  font-size: 3.953vw;
+  margin-right: 1.273vw;
+  font-family: "Philosopher-Regular";
+}
+
+.A_description{
+  font-size: 1.95vw;
+}
+
+
+/*contact*/
+
+.contact {
+  padding-top: 4.978vw;
+  padding-bottom: 6.5887vw;
+  background-color: #fff;
+  text-align: center;
+  font-family: "GenShinGothic-Medium";
+}
+
+#contact p {
+  padding-bottom: 2vw;
+}
+
+#contact_form_area {
+  width: 80vw;
+  margin: 0 10vw;
+  padding: 1.5vw 5vw;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 2vw;
+}
+
+
+.contact_title{
+  width: 80vw;
+  letter-spacing:1vw;
+  margin: 0 10vw;
+  font-size: 2.9282vw;
+  background-color: #F1EFED;
+  text-align: center;
+  margin-bottom: 8.199vw;
+  border-radius: 1vw;
+  
+}
+
+
+
+.form_column {
+  display: flex;
+  padding: 1.5vw 0;
+  align-items:center;
+}
+
+.form_subtitle{
+  display: flex;
+}
+
+.form_name{
+  margin-bottom: 7.0278vw;
+}
+
+.form_adress{
+  margin-bottom: 7.0278vw;
+}
+
+.form_number{
+  margin-bottom: 7.0278vw;
+}
+
+.form_label {
+  font-family: "GenShinGothic-Medium";
+  width: 20vw;
+  text-align: left;
+}
+
+/*必須項目*/
+.form_require{
+  width: 4.97vw;
+  font-size: 2vw;
+  color: #FFF;
+  background-color: #FF0000;
+  border-radius: 3px;
+  padding:0.673vw 0 ;
+  margin-right: 1.46vw;
+}
+
+/*任意項目*/
+.form_free{
+  width: 4.97vw;
+  font-size: 2vw;
+  color: #FFF;
+  background-color: #707070;
+  border-radius: 3px;
+  padding:0.673vw 0;
+  margin-right: 1.46vw;
+}
+
+
+.form_parts {
+  width: 23.06vw;
+  height: 4.465vw;
+  padding: 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+  
+}
+
+.form_select{
+  width: 23.06vw;
+  height: 4.465vw;
+  padding: 1vw 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form_text{
+  width: 40.38vw;
+  height: 4.465vw;
+  padding: 1vw 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form_parts::placeholder {
+  font-size: 1.5vw;
+}
+
+.payment_main{
+  width: 80vw;
+  margin: 0 10vw;
+  font-size: 2vw;
+}
+
+.payment_title{
+  width: 80vw;
+  letter-spacing:1vw;
+  margin: 0 10vw;
+  font-size: 2.9282vw;
+  background-color: #F1EFED;
+  text-align: center;
+  margin-bottom: 8.199vw;
+  border-radius: 1vw;
+  margin-top: 6.4421vw;
+}
+
+.check_lb {
+  display:block;
+  text-align: left;
+  width: 59.512vw;
+  margin-left: 2vw;
+  margin-bottom: 4.538vw;
+}
+
+input[type="radio"] {
+  margin-right: 1.5vw;
+}
+
+
+#form_submit {
+  padding-bottom: 2vw;
+}
+
+#form_has_error {
+  height: 4vw;
+  margin-top: 2vw;
+  color: #f00;
+  font-size: 2vw;
+}
+
+#submit_button {
+  font-family: "GenShinGothic-Bold";
+  padding: 2.15vw 8.89692vw;
+  color: #fff;
+  background-color: #31A169;
+  font-size: 4.099vw;
+  border-radius: 5px;
+}
+
+footer{
+  font-family: "NotoSansJP-Medium";
+  font-size: 1.7vw;
+  
+  background-image: url("../img/footer.jpg");
+  padding: 2.5vw 0;
+  
+}
+
+footer a{
+  text-decoration: none;
+  color: #212529;
+}
+
+.URL{
+  display:flex;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+ 
+ header{
+  background-image: url("../img/header_sp.jpg");
+  height: 150vw;
+}
+ 
+ 
+ .header_main{
+   margin: 0 13vw;
+   margin-bottom: 72.933vw;
+ }
+ 
+ .header_title{
+  font-size: 8.3146vw;
+  top: 5.4133vw;
+  color: #63977E;
+  
+}
+ 
+ .header_subtitle{
+   color: #FFFFFF;
+   font-size: 3.84vw;
+ }
+ 
+ .header_sub{
+   display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+ }
+ 
+ .header_text{
+   color:#FFFFFF;
+   font-size: 3.733vw;
+   margin-left: 8.3733vw;
+   
+}
+
+.header_text3{
+  font-size: 4.896vw;
+  background:none;
+  }
+  
+  .header_text3 span{
+  background: linear-gradient(transparent 80%, #B391A2 0% );
+  display: inline-block;
+  }
+
+  
+
+.header_img img{
+  width:38.221vw;
+  height:35.866vw;
+  margin-left: 0.1vw;
+  margin-top: 0;
+  margin-right: 14vw;
+}
+
+.instagram_content{
+  display: flex;
+  margin: 0 auto;
+  width: 73vw;
+  margin-top: 3.34553vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.post2{
+  display: none;
+}
+
+
+.instagram_post{
+  width:22.666vw;
+  height: 79.2vw;
+  border: 1px solid #B391A2;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 0.732vw;
+}
+
+
+.instagram_post img{
+  height: 22.666vw;
+}
+  
+  
+.instagram_post p{
+  font-size: 2.4vw;
+  text-align: left
+}
+
+.instagram_name{
+  display: flex;
+}
+
+.instagram_name img{
+  height: 4.032vw;
+  width: 4.032vw;
+  
+}  
+.instagram_post_date{
+  text-align: right;
+  margin-top: 8vw;
+}
+
+
+
+.campaign{
+  background-image: url("../img/cv_sp.jpg");
+  height: 80vw;
+  position: relative;
+}
+
+
+
+.campaign_title{
+  text-align: center;
+}
+
+.campaign_title img{
+  width: 67.253vw;
+  height: 8.90102489vw;
+  margin-bottom: 5.4421vw;
+}
+
+.campaign_wrapper{
+  display: flex;
+  justify-content:center;
+}
+
+.campaign_main{
+  text-align: center;
+}
+
+.campaign_item img{
+  width: 29.355vw;
+  height: 28.916vw;
+}
+
+.campaign_item_text{
+  font-size: 2.88vw;
+  position: absolute;
+  top: 31vw;
+  right: 34vw;
+}
+
+.campaign_text{
+  margin-left: 3.513vw;
+}
+
+.campaign_item_title{
+  font-size: 3.874vw;
+  font-family: "HannariMincho-Regular";
+}
+
+.campaign_item_text{
+  font-size: 2.04vw;
+  font-family: "NotoSansJP-Medium";
+}
+
+.campaign_item_subtitle{
+  font-size: 2.049vw;
+}
+
+.campaign_shampoo{
+  border-bottom: solid #91b3a2;
+  padding-bottom: 1.7569vw
+  
+}
+
+.campaign_cost{
+  padding-top: 2.56vw;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 48vw;
+  right: 7vw;
+  width:82vw;
+}
+
+.cost{
+  font-size: 3.744vw;
+  margin-right: 7.2vw;
+   
+}
+
+.current_cost{
+  text-decoration: line-through;
+  font-size: 3.26vw;
+}
+
+.current_cost_text{
+  font-size: 3.74vw;
+}
+
+.sale_cost{
+  font-family: "Philosopher-Regular";
+  font-size: 11.906vw;
+  color: #ff0000;
+}
+
+.sale_cost span{
+  font-size: 7vw;
+}
+
+.tax{
+  font-size: 1.97vw;
+   align-items: flex-end;
+   padding-top: 5vw;
+}
+
+.campaign_button{
+  color: #fff;
+  background-color: #91b3a2;
+  font-size: 3.7335vw;
+  border-radius: 18px;
+  position: absolute;
+  top:65vw;
+  right: 12.5vw;
+  width: 77vw;
+  height: 9.6vw;
+}
+
+
+.campaign_cancel_main{
+  position: absolute;
+  top: 36vw;
+}
+
+.campaign_cancel{
+  color: #bc0000;
+  font-size: 3.001vw;
+  border-bottom: solid #b391a2 1.2vw;
+  width: 18.008784vw;
+}
+
+.campaign_cancel_text{
+  font-size: 2.122vw;
+}
+
+
+
+
+
+
+.question{
+  background-image: url("../img/empathy_sp.jpg");
+  height: 81.936vw;
+}
+
+
+.question_title{
+  font-size: 5.06vw;
+  color: #91b3a2;
+  font-family:"HannariMincho-Regular";
+  display:inline-block;
+  margin-left:9.5168375vw;
+  margin-right:10.1610543vw;
+  margin-top:3.4133vw;
+}
+
+
+.question_text p{
+  text-align: left;
+  margin-bottom:6.2133vw;
+  font-size:3.36vw;
+}  
+
+.question_text p{
+  line-height: 3.36vw;
+}
+
+.question_img{
+  width:2.7vw;
+  height: 2.503vw;
+}
+
+
+
+.cause{
+  position: relative;
+}
+
+.cause_main{
+  background-image: url("../img/exhibit1_sp.jpg");
+  padding-top: 3.997vw;
+}
+
+.cause_title{
+  font-size: 4vw;
+  display: inline-block;
+  font-family:"HannariMincho-Regular";
+  margin-left:12.5168375vw;
+  margin-right:10.1610543vw;
+  color: #91b3a2;
+}
+
+.cause_category{
+  display: block;
+  flex-direction: column-reverse;
+  padding-top: 4.02vw;
+  padding-left: 11.05vw;
+  padding-right: 10.1024vw;
+}
+
+.cause_text{
+  font-size: 3.36vw;
+  width: 76.8023vw;
+  height: 23.112vw;
+  margin-right: 5.153vw;
+  margin-bottom: 12.733vw;
+}
+
+.cause_img{
+  width: 76.8vw;
+  height: 51.2vw;
+  margin-bottom: 3vw;
+}
+
+.cause_middle{
+  position: absolute;
+  top: 105vw;
+  left: 35vw;
+}
+
+.exhibit_main{
+  margin-top: 6.63vw;
+  padding-bottom: 5.9803vw;
+}
+
+
+.exhibit_title{
+  font-size: 4vw;
+  display: inline-block;
+  font-family:"HannariMincho-Regular";
+  margin-left:16.5168375vw;
+  margin-right:10.1610543vw;
+  color: #91b3a2;
+}
+
+.exhibit_category{
+  display: block;
+  padding-top: 4.02vw;
+
+}
+
+.exhibit_text{
+  font-size: 3.36vw;
+  width: 76.8023vw;
+  margin-left: 1.153vw;
+}
+
+.exhibit_img{
+  width: 76.8vw;
+  height: 51.2vw;
+  margin-bottom: 3vw;
+}
+
+
+.benefit{
+  padding-top: 6.9339vw;
+}
+
+
+.benefit_title{
+  font-size: 4.8vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 5.8711vw;
+  font-family: "HannariMincho-Regular";
+}
+
+
+.benefit_breeds {
+  padding: 0 10vw 3vw 10vw;
+  display: block;
+  }
+
+.benefit_description p{
+  font-size: 3.36vw;
+  width: 78.138vw;
+  height: 23.117vw;
+}
+
+.benefit_description{
+ text-align: left; 
+}
+
+.subtitle{
+  display: inline-block;
+  font-size: 3.5139vw;
+  font-family: "HannariMincho-Regular";
+  margin-bottom: 1.09vw;
+}
+
+.benefit_description p{
+  border-top:solid; 
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+
+.benefit_imgs_l img,
+.benefit_imgs_r img {
+  width: 76.8vw;
+  height: 51.466vw;
+}
+
+.benefit_imgs_l,
+.benefit_imgs_r {
+  text-align: center;
+}
+
+.benefit_img_description{
+  font-size: 2.88vw;
+  margin-bottom: 7.09vw;
+ 
+}
+
+.benefit_img_description br{
+  display: none;
+}
+
+
+.animate__animated {
+  opacity: 0;
+}
+
+
+/*use*/
+
+.use{
+  padding-top: 6.354vw;
+  padding-bottom: 5.82vw;
+  background-image: url("../img/use_sp.jpg");
+}
+
+.use_title{
+  font-size: 4.978vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 0vw;
+  font-family: "HannariMincho-Regular";
+}
+
+
+.use_content{
+  display: block;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 7.05vw;
+  padding-bottom:0vw;
+  border-bottom: solid #91B3A2;
+  position: relative;
+}
+
+.use_content_1{
+  display: block;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 2.05vw;
+  padding-bottom:0vw;
+  border-bottom: solid #91B3A2;
+  position: relative;
+}
+
+.use_content_5{
+  display: block;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+  padding-top: 7.05vw;
+  padding-bottom:0vw;
+  position: relative;
+}
+
+.use_imgs{
+  padding-right: 5.344vw;
+  border-right: none;
+}
+
+.use_imgs img{
+  width: 76.8vw;
+  height: 38.4vw;
+  position: absolute;
+  top:16vw;
+}
+
+.use_imgs_1 img{
+  width: 76.8vw;
+  height: 38.4vw;
+  position: absolute;
+  top:11vw;
+}
+
+.use_subtitle{
+  border-bottom: solid 2px;
+  font-size: 4.224vw;
+  display: inline-block;
+  margin-bottom: 44.136vw;
+}
+
+.use_description{
+  font-size: 3.36vw;
+  padding-left: 0.01vw;
+  padding-bottom: 7.05vw;
+
+}
+
+
+/*Q&A*/
+
+.Q_A{
+  background-image: url("../img/Q_A_sp.jpg")
+}
+
+.Q_A_main{
+  width: 79.9414vw;
+  margin-left: 10.82vw;
+  margin-right: 10.82vw;
+  padding-top: 3.525vw;
+}
+
+.Q_A_title{
+  font-size: 4.8vw;
+  color: #91B3A2;
+  text-align: center;
+  margin-bottom: 5.8711vw;
+  font-family: "HannariMincho-Regular";
+}
+
+.Q_A_content{
+  border-bottom: solid #91b3a2;
+  padding-bottom: 6.88vw;
+  padding-top: 4.3133vw;
+}
+
+.Q_A_content_last{
+  padding-bottom: 11.12vw;
+  padding-top: 3.3133vw;
+}
+
+.Q{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.587vw;
+}
+
+
+.Q_icon{
+  color: #91B3A2;
+  font-size: 3.953vw;
+  margin-right: 1.273vw;
+  font-family: "Philosopher-Regular";
+}
+
+.Q_description{
+  font-size: 3.4666vw;
+}
+
+.A{
+  display: flex;
+}
+
+
+
+.A_icon{
+  color: #BC0000;
+  font-size: 3.953vw;
+  margin-right: 1.273vw;
+  font-family: "Philosopher-Regular";
+}
+
+.A_description{
+  font-size: 3.4666vw;
+}
+
+
+
+/*contact*/
+
+.contact {
+  padding-top: 4.978vw;
+  padding-bottom: 6.5887vw;
+  background-color: #fff;
+  text-align: center;
+}
+
+#contact p {
+  padding-bottom: 2vw;
+}
+
+#contact_form_area {
+  width: 80vw;
+  margin: 0 10vw;
+  padding: 3vw 5vw;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 2vw;
+}
+
+
+.contact_title{
+  width: 80vw;
+  margin: 0 10vw;
+  font-size: 4.3282vw;
+  background-color: #F1EFED;
+  text-align: center;
+  margin-bottom: 8.199vw;
+  border-radius: 2vw;
+  
+}
+
+
+
+.form_column {
+  display: block;
+  padding: 1.5vw 0;
+  align-items:center;
+  font-size: 3.36vw;
+}
+
+.form_subtitle{
+  display: flex;
+  margin-bottom: 1vw;
+  align-items:center;
+}
+
+.form_name{
+  margin-bottom: 7.0278vw;
+}
+
+.form_adress{
+  margin-bottom: 7.0278vw;
+}
+
+.form_number{
+  margin-bottom: 7.0278vw;
+}
+
+.form_label {
+  width: auto;
+  text-align: left;
+  margin-left: 1.5vw;
+}
+
+/*必須項目*/
+.form_require{
+  width: 5.97vw;
+  padding:0.673vw 0;
+  font-size: 2.59vw;
+  color: #FFF;
+  background-color: #FF0000;
+  border-radius: 1vw;
+  margin-left: 1.46vw;
+}
+
+/*任意項目*/
+.form_free{
+  width: 5.97vw;
+  padding:0.673vw 0;
+  font-size: 2.59vw;
+  color: #FFF;
+  background-color: #707070;
+  border-radius: 1vw;
+  margin-left: 1.46vw;
+}
+
+
+.form_parts {
+  width: 66.66666vw;
+  height: 6.24vw;
+  padding: 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+  
+}
+
+.form_select{
+  width: 66.66666vw;
+  height: 6.24vw;
+  padding: 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form_text{
+  width: 66.66666vw;
+  height: 6.24vw;
+  padding: 0.5vw;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form_parts::placeholder {
+  font-size: 3.36vw;
+}
+
+.payment_main{
+  width: 80vw;
+  margin: 0 10vw;
+  font-size: 3.36vw;
+}
+
+.payment_title{
+  width: 80vw;
+  margin: 0 10vw;
+  font-size: 4.32vw;
+  background-color: #F1EFED;
+  text-align: center;
+  margin-bottom: 8.199vw;
+  border-radius: 5px;
+  margin-top: 6.4421vw;
+}
+
+.check_lb {
+  display:block;
+  text-align: left;
+  width: 59.512vw;
+  margin-left: 15.4vw;
+  margin-bottom: 4.538vw;
+}
+
+input[type="radio"] {
+  margin-right: 2.5vw;
+  width: 3.466vw;
+  height: 3.466vw;
+}
+
+
+#form_submit {
+  padding-bottom: 2vw;
+}
+
+#form_has_error {
+  height: 4vw;
+  margin-top: 2vw;
+  color: #f00;
+  font-size: 2vw;
+}
+
+#submit_button {
+  padding: 2.15vw 8.89692vw;
+  color: #fff;
+  background-color: #31A169;
+  font-size: 4.32vw;
+  border-radius: 3.5vw;
+}
+
+
+
+footer{
+  font-size: 2.88vw;
+  padding: 2.5vw 0;
+  
+}
+
+footer a{
+  text-decoration: none;
+  color: #212529;
+}
+
+.URL{
+  display:block;
+  margin-left: 10.02vw;
+  margin-right: 10.02vw;
+}
+
+.URL span{
+  display: none
+}
+
+.URL1{
+  display: flex;
+}
+
+.URL2{
+  display: flex;
+  text-align:center;
+  margin-left: 14.5vw;
+}
+
+
+}

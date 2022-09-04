@@ -1,0 +1,25 @@
+/* アコーディオン全体 */
+#accordion {
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* アコーディオンのタイトル部分 */
+.ac-title {
+  background-color: skyblue;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px;
+}
+
+
+
+/* アコーディオンの内容部分 */
+.ac-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: none;
+}
+
+.ac-content.ac-content-active {
+  display: block;
+}
