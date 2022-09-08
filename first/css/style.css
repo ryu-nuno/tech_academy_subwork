@@ -19,7 +19,7 @@ header{
 
 .container{
   padding: 0 1.6rem;
-  
+  overflow: hidden;
 }
 
 header .contents-width{
@@ -41,6 +41,17 @@ header .wrapper {
 
 .wrapper span{
   display: inline-block;
+  font-size: 4.5rem;
+  line-height: calc(4.5rem + 1.6rem * 2);
+  font-weight: 900;
+}
+
+header .wrapper span+span {
+  margin: .8rem 0 0;
+}
+
+header .wrapper h1 {
+  font-size: 0;
 }
 
 .wrapper h1{
