@@ -11,28 +11,32 @@ body {
 
 header{
   background-image: url(../img/main_pc.jpg);
-  height: 50.073vw;
-  width: 100%;
-  background-size: cover;
+    background-position: left center;
+    background-size: cover;
+    height: 68.4rem;
   
 }
 
 .container{
-  
   padding: 0 1.6rem;
   
 }
 
-.contents-width{
+header .contents-width{
   display: flex;
   justify-content: flex-end;
   height: 100%;
   align-items:center;
 }
 
-.wrapper{
-  max-width: 55.5rem;
-  text-align:center; 
+.contents_width{
+  width: 100%;
+    max-width: 116rem;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    max-width: 55.5rem;
 }
 
 .wrapper span{
