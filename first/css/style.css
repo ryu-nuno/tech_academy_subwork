@@ -40,7 +40,7 @@ header{
     display: inline-block;
     font-size: 3.294vw;
     line-height: calc(4.5rem + 1.6rem * 2);
-    background: linear-gradient(transparent calc(100% - 20px), #f940bc calc(100% - 20px));
+    background: linear-gradient(transparent 2vw, #f940bc 90%);
     text-shadow: 3px 0 #fff;
 }
 
@@ -50,7 +50,7 @@ header{
 
 header .wrapper img {
     display: block;
-    margin: 4.8rem auto 2.4rem;
-    max-width: 45rem;
+    margin: 4.53vw auto 3.074vw;
+    max-width: 32.942vw;
     width: 100%;
 }
