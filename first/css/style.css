@@ -4,9 +4,14 @@
 
 
 body{
-    font-size: 1.6rem;
+    
     color: #454545;
     font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+a {
+    color: #454545;
+    text-decoration: none;
 }
 
 header{
@@ -39,9 +44,9 @@ header{
     font-weight: 900;
     display: inline-block;
     font-size: 3.294vw;
-    line-height: calc(4.5rem + 1.6rem * 2);
-    background: linear-gradient(transparent 2vw, #f940bc 90%);
-    text-shadow: 3px 0 #fff;
+    line-height: 5.2vw;
+    background: linear-gradient(transparent 75%, #f940bc 0%);
+    text-shadow: 0.2vw 0 #fff;
 }
 
 .wrapper span+span {
@@ -53,4 +58,40 @@ header .wrapper img {
     margin: 4.53vw auto 3.074vw;
     max-width: 32.942vw;
     width: 100%;
+}
+
+.contact {
+    background-color: #3fbcfa;
+    padding-top: 6.002vw;
+    padding-bottom: 6.002vw;
+}
+
+.contact .contents_width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.contents_width h3{
+ font-size: 2.7818vw;
+ color: #FFFFFF;
+ line-height: calc(59 / 38);
+ text-align: center;
+ text-shadow: 1rem 0 1rem rgb(0 0 0 / 16%);
+}
+
+.contents_width a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdfa3e;
+    width: 20.79vw;
+    height: 8.05vw;
+    border-radius: 6vw;
+    font-size: 2.78vw;
+    font-weight: 900;
+    box-shadow: 0 0.1vw 0.1vw #454545;
+    overflow: hidden;
+    position: relative;
 }
