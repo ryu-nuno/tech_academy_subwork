@@ -14,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+.contents_width {
+    width: 100%;
+    max-width: 116rem;
+    margin: 0 auto;
+}
+
 header{
     background-image: url(../img/main_pc.jpg);
     background-size: cover;
@@ -25,7 +31,7 @@ header{
     padding: 0 7.9vw;
 }
 
-.contents_width{
+.contact .contents_width{
     display: flex;
     height:100%;
     justify-content:flex-end;
@@ -73,7 +79,7 @@ header .wrapper img {
     gap: 6rem;
 }
 
-.contents_width h3{
+.contact .contents_width h3{
  font-size: 2.7818vw;
  color: #FFFFFF;
  line-height: calc(59 / 38);
@@ -94,4 +100,18 @@ header .wrapper img {
     box-shadow: 0 0.1vw 0.1vw #454545;
     overflow: hidden;
     position: relative;
+}
+
+.bg_stripe {
+    background: repeating-linear-gradient(45deg, #fff, #fff 15px, #f5f5f5 0, #f5f5f5 30px);
+}
+
+.interest .contents_width {
+    padding: 7.2rem 0 6rem;
+    position: relative;
+}
+
+.interest h3 {
+    font-size: 3.1rem;
+    line-height: 3.1rem;
 }
