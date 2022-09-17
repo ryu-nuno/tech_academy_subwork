@@ -14,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+
+li {
+    list-style: none;
+}
+
+
 .contents_width {
     width: 100%;
     max-width: 116rem;
@@ -114,4 +120,47 @@ header .wrapper img {
 .interest h3 {
     font-size: 3.1rem;
     line-height: 3.1rem;
+}
+
+.interest ul {
+    margin: 5rem 0 2.5rem;
+    width: 66%;
+    position: relative;
+    z-index: 10;
+}
+
+.interest ul li {
+    display: block;
+    box-sizing: border-box;
+    font-size: 3rem;
+    line-height: calc(40 / 30);
+    font-weight: 900;
+    border: 0.7rem solid #707070;
+    border-radius: 5rem;
+    background-color: #fff;
+    padding: 2.7rem;
+    margin: 2.5rem 0 0;
+    text-align: center;
+}
+
+.interest p {
+    display: inline-block;
+    font-size: 3.7rem;
+    line-height: calc(3.7rem + 1.6rem * 2);
+    position: relative;
+    z-index: 10;
+}
+
+
+.interest p{
+font-weight: 900;
+    background: linear-gradient(transparent calc(100% - 20px), #f940bc calc(100% - 20px));
+    text-shadow: 3px 0 #fff;
+}
+
+.interest img {
+    position: absolute;
+    bottom: 0;
+    right: -16%;
+    width: 60%;
 }
