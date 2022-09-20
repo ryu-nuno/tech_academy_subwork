@@ -162,5 +162,74 @@ font-weight: 900;
     position: absolute;
     bottom: 0;
     right: -16%;
-    width: 61%;
+    width: 60%;
+}
+
+.point {
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+    background: #3fbcfa;
+}
+
+.point h2, .about h2, .reason h2, .qa h2 {
+    color: #3fbcfa;
+    font-weight: 900;
+    background: #fff;
+    font-size: 4rem;
+    line-height: 1;
+    text-align: center;
+    max-width: 94.8rem;
+    margin: 0 auto;
+    padding: 3.8rem;
+    border-radius: 2rem;
+}
+
+.point ul {
+    color: #fff;
+    max-width: 85.6rem;
+    margin: 0 auto;
+}
+
+.point ul li {
+    margin: 6rem 0 0;
+}
+
+.point ul li span {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 0.1em;
+    width: 13.6rem;
+}
+
+.point ul li span+div {
+    width: calc(100% - 13.6rem);
+    border-left: 0.7rem solid #fff;
+    padding: 2.3rem 0 1rem 2.7rem;
+}
+
+.point ul li span+div h3 {
+    font-size: 3rem;
+    line-height: calc(36 / 30);
+    font-weight: 900;
+}
+
+.point ul li span+div p {
+    font-size: 1.8rem;
+    margin: 1.6rem 0 0;
+    line-height: calc(27 / 18);
+    font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-pc {
+    display: none;
 }
