@@ -230,6 +230,7 @@ font-weight: 900;
     justify-content: space-between;
 }
 
+/*displaynone*/
 .no-pc {
     display: none;
 }
