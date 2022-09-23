@@ -234,3 +234,50 @@ font-weight: 900;
 .no-pc {
     display: none;
 }
+
+about {
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+}
+
+.about h2 {
+    background: #f940bc;
+    color: #fff;
+}
+
+.about ul {
+    margin: 6rem 0 0;
+}
+
+.about ul li {
+    background: #fff;
+    padding: 7.6rem 6.7rem 7.7rem 3.4rem;
+    margin: 3rem 0 0;
+    align-items: center;
+}
+
+.about ul figure {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.about ul dl {
+    width: 60%;
+    padding: 0 0 0 4.2rem;
+}
+
+.about ul dl dt, .about ul dl dd {
+    font-size: 3rem;
+    line-height: calc(36 / 30);
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+about ul dl dd {
+    color: #f940bc;
+    font-size: 1.8rem;
+    line-height: calc(27 / 18);
+    font-weight: 500;
+    margin: 8.4rem 0 0;
+}gg
