@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75vw;
   font-weight: 400;
   line-height: 1.75;
   color: #000;
@@ -17,7 +17,7 @@ body {
 
 a {
   text-decoration: none;
-  color:#000;
+  color:#FFF;
 }
 
 img {
@@ -71,7 +71,7 @@ img {
 }
 
 .pc_nav_ul li {
-  border: 0.073px solid #606060;
+  border: 0.073vw solid #606060;
 }
 
 .header_wrap {
@@ -353,6 +353,7 @@ img {
 }
 
 .kome {
+  
   font-size: 1.17vw;
   font-weight: 700;
   vertical-align: top;
@@ -387,9 +388,9 @@ img {
   font-weight: 700;
   margin-right: 0;
   background-color: #f6f3dc;
-  border-left: 1px solid #222;
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
+  border-left: 0.073vw solid #222;
+  border-top: 0.073vw solid #222;
+  border-bottom: 0.073vw solid #222;
   color: #1f2774;
   text-align: center;
   line-height: 2.63vw;
@@ -423,7 +424,7 @@ img {
   font-weight: 700;
   height: 2.63vw;
   margin-left: 0;
-  border: 1px solid #222;
+  border: 0.073vw solid #222;
   text-align: center;
   line-height: 2.63vw;
 }
@@ -496,7 +497,7 @@ img {
   width: 40.85vw;
   height: 4.68vw;
   background-color: #1f2774;
-  border-radius: 3.2rem;
+  border-radius: 3.748vw;
   font-size: 2.57vw;
   color: #fff;
   font-weight: 700;
@@ -507,6 +508,10 @@ img {
   background-image: linear-gradient(270deg, #1f2774 0%, #36409e 70%, #434c99 100%);
   -webkit-box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
           box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
+}
+
+.application_button_l a{
+  color: #FFF;
 }
 
 .ad_right {
@@ -554,10 +559,12 @@ img {
   }
   .application_button_l {
     width: 92vw;
+    border-radius: 5.28vw;
     height: 10.55vw;
     margin-top: 10.66vw;
     margin-bottom: 10.66vw;
     font-size: 5.866vw;
+    
     line-height: 10.55vw;
   }
   .ad_right {
@@ -677,7 +684,7 @@ img {
   font-size: 2.63vw;
   font-weight: 700;
   text-align: center;
-  line-height: 3.6rem;
+  line-height: 4.21vw;
   margin: 0;
 }
 
@@ -789,6 +796,12 @@ img {
   font-weight: 700;
 }
 
+.annnotation{
+  margin-left: 0.7vw;
+  font-size: 1.17vw;
+  font-weight: 700;
+}
+
 .red_m {
   color: #7f1019;
   font-weight: 700;
@@ -804,7 +817,8 @@ img {
 }
 
 .regular {
-  font-size: 1.6rem;
+  font-size: 1.17vw;
+  font-weight: 700;
 }
 
 .benefit_service::before {
@@ -922,14 +936,15 @@ img {
 /*基本情報*/
 .base_info {
   width: 100%;
-  height: 83.13vw;
+  /*height: 83.13vw;*/
+  padding-bottom: 11.713vw;
   position: relative;
 }
 
 .base_info_table {
   margin: 0 auto;
   border-collapse: collapse;
-  border: 1px solid #606060;
+  border: 0.073vw solid #606060;
   font-size: 1.117vw;
   line-height: 1.117vw;
 }
@@ -937,14 +952,14 @@ img {
 .base_info_th {
   background-color: #ebe4af;
   width: 19.33vw;
-  border: 1px solid #606060;
+  border: 0.073vw solid #606060;
   line-height: 4.1vw;
   text-align: center;
 }
 
 .base_info_td {
   width: 50.1vw;
-  border: 1px solid #606060;
+  border: 0.073vw solid #606060;
   padding: 1.46vw 2.05vw;
 }
 
@@ -982,7 +997,8 @@ img {
 
 @media (max-width: 767px) {
   .base_info {
-    height: 230vw;
+    /*height: 230vw;*/
+    padding-bottom: 22.4vw;
   }
   .base_info_table {
     width: 92vw;
@@ -1024,14 +1040,16 @@ img {
 
 .other {
   width: 100%;
-  height: 90vw;
+  /*height: 90vw;*/
+  padding-bottom: 7.32vw;
   background-color: #b5e9ee;
 }
 
 .other_head_p {
   font-size: 1.75vw;
+  font-weight: 700;
   width: 85%;
-  padding-left: 3.66vw;
+  margin-left: 3.66vw;
   line-height: 4.68vw;
 }
 
@@ -1061,7 +1079,7 @@ img {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: block;
-  border: 1px solid #222;
+  border: 0.073vw solid #222;
   border-radius: 50%;
   width: 3.21vw;
   height: 3.21vw;
@@ -1115,7 +1133,7 @@ img {
 
 @media (max-width: 767px) {
   .other {
-    height: 310vw;
+    padding-bottom: 16vw;
   }
   .other_head_p {
     font-size: 4.8vw;
@@ -1211,9 +1229,8 @@ img {
   text-align: center;
   -webkit-box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
           box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
-  /*margin-right: 4vw !important;*/
-  margin-left: 4.24vw !important;
-  border-radius: 30px;
+  margin-right: 4vw !important;
+  margin-left: 4vw !important;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -1381,13 +1398,18 @@ img {
   .footer {
     height: 41.3vw;
   }
+  
+  .footer_logo img{
+  height: 9.06vw;
+  width: 68.8vw;
+}
+  
   .footer_logo {
-    font-size: 3.4rem;
     margin-top: 10.66vw;
     margin-bottom: 6.13vw;
   }
   .copywrite {
-    font-size: 1rem;
+    font-size: 2.666vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
