@@ -70,6 +70,10 @@ img {
   background-color: #fff;
 }
 
+.pc_nav_ul li a{
+  color: #000;
+}
+
 .pc_nav_ul li {
   border: 0.073vw solid #606060;
 }
@@ -191,6 +195,7 @@ img {
 
 .sp_nav_ul li a {
   display: block;
+  color: #000;
 }
 
 /*トップ*/
@@ -424,7 +429,7 @@ img {
   font-weight: 700;
   height: 2.63vw;
   margin-left: 0;
-  border: 0.073vw solid #222;
+  border: 0.073vw solid #222222;
   text-align: center;
   line-height: 2.63vw;
 }
@@ -604,21 +609,21 @@ img {
   .campaign::before {
     content: "";
     position: absolute;
-    border-top: 2.53vw solid transparent;
-    border-bottom: 2.53vw solid transparent;
-    border-right: 2.53vw solid transparent;
-    border-left: 2.53vw solid #f6f3dc;
-    left: 29.7vw;
+    border-top: 2.58vw solid transparent;
+    border-bottom: 2.58vw solid transparent;
+    border-right: 2.58vw solid transparent;
+    border-left: 2.58vw solid #f6f3dc;
+    left: 29.6vw;
     z-index: 2;
   }
   .campaign::after {
     content: "";
     position: absolute;
-    border-top: 2.53vw  solid transparent;
-    border-bottom: 2.53vw  solid transparent;
-    border-right: 2.53vw  solid transparent;
-    border-left: 2.53vw solid #000;
-    left: 29.9vw;
+    border-top: 2.5vw  solid transparent;
+    border-bottom: 2.6vw  solid transparent;
+    border-right: 2.5vw  solid transparent;
+    border-left: 2.5vw solid #000;
+    left: 29.8vw;
     z-index: 1;
   }
   .period {
@@ -695,6 +700,7 @@ img {
 @media (max-width: 767px) {
   .heading {
     font-size: 7.4vw;
+    line-height: 12.21vw;
     padding-top: 10.66vw;
     padding-bottom: 11.2vw;
     margin: 0 auto;
@@ -707,7 +713,7 @@ img {
 /*隙間*/
 .gap {
   width: 100%;
-  height: 16.83vw;
+  height: 17.83vw;
   background-color: #fff;
   position: relative;
   z-index: -1;
@@ -796,7 +802,7 @@ img {
   font-weight: 700;
 }
 
-.annnotation{
+.annotation{
   margin-left: 0.7vw;
   font-size: 1.17vw;
   font-weight: 700;
@@ -831,7 +837,7 @@ img {
   position: absolute;
 }
 
-.annnotation {
+.annotation {
   font-size: 1.17vw;
 }
 
@@ -844,13 +850,13 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-size: 1.17vw;
+  line-height: 1.6vw;
 }
 
-.spp_p {
+/*.spp_p {
   display: block;
-}
+}*/
 
 @media (max-width: 767px) {
   .benefit_service {
@@ -909,28 +915,29 @@ img {
     line-height: 4.08vw;
   }
   .regular {
-    font-size: 1.2rem;
+    font-size: 3.2vw;
   }
-  .annnotation {
+  .annotation {
     font-size: 2.66vw;
   }
   .sp_position {
     position: absolute;
-    top: 5.86vw;
-    right: 4vw;
+    top: 4.65vw;
+    right: 3.7vw;
   }
   .supplement {
     width: 92vw;
     margin-right: 4vw;
     margin-left: 4vw;
-    font-size: 1.2rem;
+    font-size: 3.2vw;
+    line-height: 3.3vw;
   }
   .sp_bottom {
     margin-bottom: 4vw;
   }
-  .spp_p {
+  /*.spp_p {
     display: block;
-  }
+  }*/
 }
 
 /*基本情報*/
@@ -946,12 +953,13 @@ img {
   border-collapse: collapse;
   border: 0.073vw solid #606060;
   font-size: 1.117vw;
-  line-height: 1.117vw;
+  /*line-height: 1.117vw;*/
 }
 
 .base_info_th {
   background-color: #ebe4af;
   width: 19.33vw;
+  font-weight: 700;
   border: 0.073vw solid #606060;
   line-height: 4.1vw;
   text-align: center;
@@ -966,8 +974,7 @@ img {
 .info_annotation {
   display: inline-block;
   font-size: 1.0vw;
-  line-height: 2.05vw;
-  margin-top: 2.2vw;
+  
 }
 
 .annotation_flex {
@@ -975,10 +982,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 2.19vw;
+  line-height: 2.05vw;
 }
 
 .annotation_block {
   display: block;
+  line-height: 2.05vw;
 }
 
 .line_height {
@@ -1002,27 +1011,34 @@ img {
   }
   .base_info_table {
     width: 92vw;
-    font-size: 1.2rem;
-    line-height: 1.749rem;
+    font-size: 3.2vw;
+    
   }
   .base_info_th {
     width: 32.53vw;
     text-align: center;
+    font-weight: 700;
   }
   .base_info_td {
     width: 59.47vw;
+    line-height: 5.6vw;
     padding: 4vw 2.05vw;
   }
   .info_annotation {
-    font-size: 0.99rem;
-    line-height: 1.749rem;
-    margin-top: 4vw;
+    font-size: 2.666vw;
+    line-height: 5.6vw;
   }
+  
+  .annotation_block{
+    line-height: 4.6vw;
+    font-size: 2.666vw;
+  }
+  
   .annotation_flex {
-    margin-top: 2.19vw;
+    margin-top: 0.5vw;
   }
   .line_height {
-    line-height: 2.1rem;
+    line-height: 5.6vw;
   }
   .base_info::before {
     border-color: transparent transparent transparent #b5e9ee;
@@ -1175,7 +1191,7 @@ img {
   }
   .other_p {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 3.2vw;
     margin: 0.8vw auto 0 auto;
   }
   .other_heading.selected .symbol:before {
