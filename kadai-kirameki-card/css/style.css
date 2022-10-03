@@ -40,7 +40,7 @@ img {
   padding-right: 8.125vw;
 }
 
-.logo {
+.logo img{
   color: #1f2774;
   height: 3.2942vw;
   width: 25.55vw;
@@ -142,11 +142,11 @@ img {
   .sp_nav_wrap {
     padding-top: 0;
   }
-  .sp_logo {
+  .sp_logo img{
     position: relative;
     padding-top: 0;
     width: 48.266vw;
-    margin: 5.06vw auto 3.73vw 4.53vw;
+    margin: 4.3vw auto 4.3vw 4.53vw;
     font-size: 6.13vw;
     color: #1f2774;
   }
@@ -635,7 +635,7 @@ border: 0.073vw solid #222222;
     width: 29.6vw;
     height: 5.06vw;
     line-height: 5.06vw;
-    font-size: 3.46vw;
+    font-size: 3.2vw;
   }
   .campaign_period {
     height: 6vw;
