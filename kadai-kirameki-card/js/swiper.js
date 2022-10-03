@@ -1,6 +1,10 @@
 /* globals Swiper */
 /* globals $ */
-$(function () {
+
+
+
+/*レスポンシブが反応しずらい*/
+/*$(function () {
   if (window.matchMedia('(max-width: 767px)').matches) {
     new Swiper('.swiper', {
       slidesPerView: 1.4,
@@ -42,7 +46,7 @@ $(function () {
   },
 });
   }
-})
+})*/
 
 
 
@@ -68,3 +72,38 @@ var swiper = new Swiper('.swiper', {
   },
 });
 */
+
+
+
+
+
+
+
+
+var swiper = new Swiper ('.swiper', {
+  slidesPerView: 1.4,
+  spaceBetween: 36,
+  centeredSlides : true,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+    formatFractionCurrent: function (n) {
+        return '0'  + n;
+    },
+    formatFractionTotal: function (number) {
+        return '0'  + number;
+    }
+  },
+  navigation: {
+    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+  },
+  breakpoints: {
+    767: {
+      slidesPerView: 2.3,
+      spaceBetween: 58,
+      centeredSlides : true,
+    }
+  }
+  
+})
