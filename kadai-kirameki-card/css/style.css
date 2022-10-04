@@ -416,22 +416,22 @@ img {
 .campaign::before {
   content: "";
   position: absolute;
-  border-top: 1.2vw solid transparent;
-  border-bottom: 1.25vw solid transparent;
-  border-right: 1.315vw solid transparent;
-  border-left: 1.3vw solid #f6f3dc;
-  left: 14.6vw;
+  border-top: 1.15vw solid transparent;
+  border-bottom: 1.35vw solid transparent;
+  border-right: 1vw solid transparent;
+  border-left: 1.4vw solid #f6f3dc;
+  left: 14.5vw;
   z-index: 2;
 }
 
 .campaign::after {
   content: "";
   position: absolute;
-  border-top: 1.2vw solid transparent;
-  border-bottom: 1.25vw solid transparent;
-  border-right: 1.315vw solid transparent;
-  border-left: 1.3vw solid #000;
-  left: 14.7vw;
+  border-top: 1.15vw solid transparent;
+  border-bottom: 1.35vw solid transparent;
+  border-right: 1.vw solid transparent;
+  border-left: 1.4vw solid #000;
+  left: 14.6vw;
   z-index: 1;
 }
 
@@ -647,8 +647,8 @@ border: 0.073vw solid #222222;
     border-top: 2.4vw solid transparent;
     border-bottom: 2.35vw solid transparent;
     border-right: 2.5vw solid transparent;
-    border-left: 2.5vw solid #f6f3dc;
-    left: 29.5vw;
+    border-left: 2.65vw solid #f6f3dc;
+    left: 29.35vw;
     z-index: 2;
   }
   .campaign::after {
@@ -657,8 +657,8 @@ border: 0.073vw solid #222222;
     border-top: 2.4vw  solid transparent;
     border-bottom: 2.35vw  solid transparent;
     border-right: 2.5vw  solid transparent;
-    border-left: 2.5vw solid #000;
-    left: 29.7vw;
+    border-left: 2.65vw solid #000;
+    left: 29.6vw;
     z-index: 1;
   }
   .period {
@@ -951,6 +951,7 @@ border: 0.073vw solid #222222;
   }
   .regular {
     font-size: 3.2vw;
+    font-weight: 400;
   }
   .annotation {
     font-size: 2.66vw;

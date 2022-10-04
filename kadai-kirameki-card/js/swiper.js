@@ -3,17 +3,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
 var swiper = new Swiper ('.swiper', {
-  slidesPerView: 1.365,
+  slidesPerView: 1.397,
   spaceBetween: 38,
   centeredSlides : true,
   pagination: {
@@ -32,7 +23,7 @@ var swiper = new Swiper ('.swiper', {
   },
   breakpoints: {
     767: {
-      slidesPerView: 2.27,
+      slidesPerView: 2.34,
       spaceBetween: 58,
       centeredSlides : true,
     }
